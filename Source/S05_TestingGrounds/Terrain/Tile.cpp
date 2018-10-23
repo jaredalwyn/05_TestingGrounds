@@ -2,6 +2,7 @@
 
 #include "Tile.h"
 #include "DrawDebugHelpers.h"
+#include "EngineUtils.h"
 
 
 // Sets default values
@@ -61,6 +62,8 @@ void ATile::PlaceActors(TSubclassOf<AActor> ToSpawn, int MinSpawn, int MaxSpawn,
 void ATile::BeginPlay()
 {
 	Super::BeginPlay();
+
+
 }
 
 // Called every frame
